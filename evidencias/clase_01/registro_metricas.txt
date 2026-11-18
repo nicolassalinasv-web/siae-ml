@@ -1,0 +1,48 @@
+Python 3.10.11 | {'numpy': '2.2.6', 'pandas': '2.3.3', 'scikit-learn': '1.7.2', 'matplotlib': '3.10.9'}
+
+A_original
+> python -B laboratorio_1.py
+Dimensiones: (400, 5) Nulos: 0 Duplicados: 0
+       indicador_1  indicador_2  indicador_3  indicador_4  indicador_5
+count       400.00       400.00       400.00       400.00       400.00
+mean          0.05         0.05        -0.01         0.13        -0.00
+std           0.96         0.95         0.96         0.99         1.07
+min          -3.24        -2.65        -2.70        -2.87        -2.94
+25%          -0.63        -0.63        -0.62        -0.55        -0.69
+50%           0.06         0.09         0.02         0.07        -0.02
+75%           0.65         0.71         0.61         0.76         0.69
+max           3.14         3.08         3.19         3.85         2.56
+MAE: 15.33 R2: 0.961
+
+B_prueba_30
+> python -B evidencias\clase_01\laboratorio_1_experimento.py --prueba-30
+Dimensiones: (400, 5) Nulos: 0 Duplicados: 0
+       indicador_1  indicador_2  indicador_3  indicador_4  indicador_5
+count       400.00       400.00       400.00       400.00       400.00
+mean          0.05         0.05        -0.01         0.13        -0.00
+std           0.96         0.95         0.96         0.99         1.07
+min          -3.24        -2.65        -2.70        -2.87        -2.94
+25%          -0.63        -0.63        -0.62        -0.55        -0.69
+50%           0.06         0.09         0.02         0.07        -0.02
+75%           0.65         0.71         0.61         0.76         0.69
+max           3.14         3.08         3.19         3.85         2.56
+MAE: 14.31 R2: 0.966
+Entrenamiento: 280 Prueba: 120 Semilla: 42
+
+A_referencia
+> python -B evidencias\clase_01\laboratorio_1_experimento.py --referencia
+Dimensiones: (400, 5) Nulos: 0 Duplicados: 0
+       indicador_1  indicador_2  indicador_3  indicador_4  indicador_5
+count       400.00       400.00       400.00       400.00       400.00
+mean          0.05         0.05        -0.01         0.13        -0.00
+std           0.96         0.95         0.96         0.99         1.07
+min          -3.24        -2.65        -2.70        -2.87        -2.94
+25%          -0.63        -0.63        -0.62        -0.55        -0.69
+50%           0.06         0.09         0.02         0.07        -0.02
+75%           0.65         0.71         0.61         0.76         0.69
+max           3.14         3.08         3.19         3.85         2.56
+MAE: 15.33 R2: 0.961
+Entrenamiento: 320 Prueba: 80 Semilla: 42
+MAE referencia media: 76.78
+Media de ytr: 9.9974
+Reduccion del MAE (%): 80.03
